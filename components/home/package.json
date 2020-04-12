@@ -1,0 +1,27 @@
+{
+  "name": "@bit/onuraltindag.atomiss-mercury.home",
+  "version": "1.0.4",
+  "homepage": "https://bit.dev/onuraltindag/atomiss-mercury/home",
+  "main": "dist/home/bundles/bit-onuraltindag.atomiss-mercury.home.umd.js",
+  "dependencies": {
+    "@bit/onuraltindag.atomiss-mercury.mock-services": "file:../mock-services"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "@angular/common": "~8.0.0",
+    "@angular/core": "~8.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@0.2.0"
+    }
+  },
+  "es2015": "dist\\home\\fesm2015\\bit-onuraltindag.atomiss-mercury.home.js",
+  "esm5": "dist\\home\\esm5\\bit-onuraltindag.atomiss-mercury.home.js",
+  "esm2015": "dist\\home\\esm2015\\bit-onuraltindag.atomiss-mercury.home.js",
+  "fesm5": "dist\\home\\fesm5\\bit-onuraltindag.atomiss-mercury.home.js",
+  "fesm2015": "dist\\home\\fesm2015\\bit-onuraltindag.atomiss-mercury.home.js",
+  "module": "dist\\home\\fesm5\\bit-onuraltindag.atomiss-mercury.home.js",
+  "typings": "dist\\home\\bit-onuraltindag.atomiss-mercury.home.d.ts"
+}

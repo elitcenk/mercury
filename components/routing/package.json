@@ -1,0 +1,33 @@
+{
+  "name": "@bit/onuraltindag.atomiss-mercury.routing",
+  "version": "1.0.2",
+  "homepage": "https://bit.dev/onuraltindag/atomiss-mercury/routing",
+  "main": "dist/routing/bundles/bit-onuraltindag.atomiss-mercury.routing.umd.js",
+  "dependencies": {
+    "@bit/onuraltindag.atomiss-mercury.home": "file:../home",
+    "@bit/onuraltindag.atomiss-mercury.login": "file:../login",
+    "@bit/onuraltindag.atomiss-mercury.mock-services": "file:../mock-services",
+    "@bit/onuraltindag.atomiss-mercury.register": "file:../register",
+    "@bit/onuraltindag.atomiss-mercury.userhome": "file:../userhome",
+    "@bit/onuraltindag.atomiss-mercury.userprofile": "file:../userprofile"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "@angular/common": "~8.0.0",
+    "@angular/core": "~8.0.0",
+    "@angular/router": "~8.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@0.2.0"
+    }
+  },
+  "es2015": "dist\\routing\\fesm2015\\bit-onuraltindag.atomiss-mercury.routing.js",
+  "esm5": "dist\\routing\\esm5\\bit-onuraltindag.atomiss-mercury.routing.js",
+  "esm2015": "dist\\routing\\esm2015\\bit-onuraltindag.atomiss-mercury.routing.js",
+  "fesm5": "dist\\routing\\fesm5\\bit-onuraltindag.atomiss-mercury.routing.js",
+  "fesm2015": "dist\\routing\\fesm2015\\bit-onuraltindag.atomiss-mercury.routing.js",
+  "module": "dist\\routing\\fesm5\\bit-onuraltindag.atomiss-mercury.routing.js",
+  "typings": "dist\\routing\\bit-onuraltindag.atomiss-mercury.routing.d.ts"
+}

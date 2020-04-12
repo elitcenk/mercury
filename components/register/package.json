@@ -1,0 +1,28 @@
+{
+  "name": "@bit/onuraltindag.atomiss-mercury.register",
+  "version": "1.0.6",
+  "homepage": "https://bit.dev/onuraltindag/atomiss-mercury/register",
+  "main": "dist/register/bundles/bit-onuraltindag.atomiss-mercury.register.umd.js",
+  "dependencies": {
+    "@bit/onuraltindag.atomiss-mercury.mock-services": "file:../mock-services"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "@angular/common": "~8.0.0",
+    "@angular/core": "~8.0.0",
+    "@angular/forms": "~8.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@0.2.0"
+    }
+  },
+  "es2015": "dist\\register\\fesm2015\\bit-onuraltindag.atomiss-mercury.register.js",
+  "esm5": "dist\\register\\esm5\\bit-onuraltindag.atomiss-mercury.register.js",
+  "esm2015": "dist\\register\\esm2015\\bit-onuraltindag.atomiss-mercury.register.js",
+  "fesm5": "dist\\register\\fesm5\\bit-onuraltindag.atomiss-mercury.register.js",
+  "fesm2015": "dist\\register\\fesm2015\\bit-onuraltindag.atomiss-mercury.register.js",
+  "module": "dist\\register\\fesm5\\bit-onuraltindag.atomiss-mercury.register.js",
+  "typings": "dist\\register\\bit-onuraltindag.atomiss-mercury.register.d.ts"
+}

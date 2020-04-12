@@ -1,0 +1,31 @@
+{
+  "name": "@bit/onuraltindag.atomiss-mercury.login",
+  "version": "1.0.20",
+  "homepage": "https://bit.dev/onuraltindag/atomiss-mercury/login",
+  "main": "dist/login/bundles/bit-onuraltindag.atomiss-mercury.login.umd.js",
+  "dependencies": {
+    "@bit/onuraltindag.atomiss-mercury.login-facebook": "file:../login-facebook",
+    "@bit/onuraltindag.atomiss-mercury.login-google": "file:../login-google",
+    "@bit/onuraltindag.atomiss-mercury.login-linkedin": "file:../login-linkedin",
+    "@bit/onuraltindag.atomiss-mercury.mock-services": "file:../mock-services"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "@angular/common": "~8.0.0",
+    "@angular/core": "~8.0.0",
+    "@angular/forms": "~8.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@0.2.0"
+    }
+  },
+  "es2015": "dist\\login\\fesm2015\\bit-onuraltindag.atomiss-mercury.login.js",
+  "esm5": "dist\\login\\esm5\\bit-onuraltindag.atomiss-mercury.login.js",
+  "esm2015": "dist\\login\\esm2015\\bit-onuraltindag.atomiss-mercury.login.js",
+  "fesm5": "dist\\login\\fesm5\\bit-onuraltindag.atomiss-mercury.login.js",
+  "fesm2015": "dist\\login\\fesm2015\\bit-onuraltindag.atomiss-mercury.login.js",
+  "module": "dist\\login\\fesm5\\bit-onuraltindag.atomiss-mercury.login.js",
+  "typings": "dist\\login\\bit-onuraltindag.atomiss-mercury.login.d.ts"
+}

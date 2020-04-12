@@ -1,0 +1,29 @@
+{
+  "name": "@bit/onuraltindag.atomiss-mercury.login-linkedin",
+  "version": "1.0.2",
+  "homepage": "https://bit.dev/onuraltindag/atomiss-mercury/login-linkedin",
+  "main": "dist/login-linkedin/bundles/bit-login-linkedin.umd.js",
+  "dependencies": {
+    "angular-6-social-login": "^1.1.1",
+    "@bit/onuraltindag.atomiss-mercury.mock-services": "file:../mock-services"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "@angular/common": "~8.0.0",
+    "@angular/core": "~8.0.0",
+    "@angular/forms": "~8.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@0.2.0"
+    }
+  },
+  "es2015": "dist\\login-linkedin\\fesm2015\\bit-login-linkedin.js",
+  "esm5": "dist\\login-linkedin\\esm5\\bit-login-linkedin.js",
+  "esm2015": "dist\\login-linkedin\\esm2015\\bit-login-linkedin.js",
+  "fesm5": "dist\\login-linkedin\\fesm5\\bit-login-linkedin.js",
+  "fesm2015": "dist\\login-linkedin\\fesm2015\\bit-login-linkedin.js",
+  "module": "dist\\login-linkedin\\fesm5\\bit-login-linkedin.js",
+  "typings": "dist\\login-linkedin\\bit-login-linkedin.d.ts"
+}

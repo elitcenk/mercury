@@ -1,0 +1,29 @@
+{
+  "name": "@bit/onuraltindag.atomiss-mercury.signout",
+  "version": "1.0.10",
+  "homepage": "https://bit.dev/onuraltindag/atomiss-mercury/signout",
+  "main": "dist/signout/bundles/bit-onuraltindag.atomiss-mercury.signout.umd.js",
+  "dependencies": {
+    "@bit/onuraltindag.atomiss-mercury.mock-services": "file:../mock-services"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "@angular/common": "~8.0.0",
+    "@angular/core": "~8.0.0",
+    "@angular/material": "^8.0.0",
+    "@angular/router": "~8.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@0.2.0"
+    }
+  },
+  "es2015": "dist\\signout\\fesm2015\\bit-onuraltindag.atomiss-mercury.signout.js",
+  "esm5": "dist\\signout\\esm5\\bit-onuraltindag.atomiss-mercury.signout.js",
+  "esm2015": "dist\\signout\\esm2015\\bit-onuraltindag.atomiss-mercury.signout.js",
+  "fesm5": "dist\\signout\\fesm5\\bit-onuraltindag.atomiss-mercury.signout.js",
+  "fesm2015": "dist\\signout\\fesm2015\\bit-onuraltindag.atomiss-mercury.signout.js",
+  "module": "dist\\signout\\fesm5\\bit-onuraltindag.atomiss-mercury.signout.js",
+  "typings": "dist\\signout\\bit-onuraltindag.atomiss-mercury.signout.d.ts"
+}

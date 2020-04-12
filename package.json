@@ -19,6 +19,19 @@
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
+    "@bit/onuraltindag.atomiss-mercury.counter": "file:./components/counter",
+    "@bit/onuraltindag.atomiss-mercury.home": "file:./components/home",
+    "@bit/onuraltindag.atomiss-mercury.login": "file:./components/login",
+    "@bit/onuraltindag.atomiss-mercury.login-facebook": "file:./components/login-facebook",
+    "@bit/onuraltindag.atomiss-mercury.login-google": "file:./components/login-google",
+    "@bit/onuraltindag.atomiss-mercury.login-linkedin": "file:./components/login-linkedin",
+    "@bit/onuraltindag.atomiss-mercury.mock-services": "file:./components/mock-services",
+    "@bit/onuraltindag.atomiss-mercury.register": "file:./components/register",
+    "@bit/onuraltindag.atomiss-mercury.routing": "file:./components/routing",
+    "@bit/onuraltindag.atomiss-mercury.signout": "file:./components/signout",
+    "@bit/onuraltindag.atomiss-mercury.userhome": "file:./components/userhome",
+    "@bit/onuraltindag.atomiss-mercury.userprofile": "file:./components/userprofile",
+    "ng2-cookies": "^1.0.12",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
@@ -43,5 +56,10 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "typescript": "~3.5.3"
+  },
+  "bit": {
+    "env": {},
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm"
   }
 }

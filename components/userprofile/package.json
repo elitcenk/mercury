@@ -1,0 +1,27 @@
+{
+  "name": "@bit/onuraltindag.atomiss-mercury.userprofile",
+  "version": "1.0.4",
+  "homepage": "https://bit.dev/onuraltindag/atomiss-mercury/userprofile",
+  "main": "dist/userprofile/bundles/bit-onuraltindag.atomiss-mercury.userprofile.umd.js",
+  "dependencies": {
+    "@bit/onuraltindag.atomiss-mercury.mock-services": "file:../mock-services"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "@angular/common": "~8.0.0",
+    "@angular/core": "~8.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@0.2.0"
+    }
+  },
+  "es2015": "dist\\userprofile\\fesm2015\\bit-onuraltindag.atomiss-mercury.userprofile.js",
+  "esm5": "dist\\userprofile\\esm5\\bit-onuraltindag.atomiss-mercury.userprofile.js",
+  "esm2015": "dist\\userprofile\\esm2015\\bit-onuraltindag.atomiss-mercury.userprofile.js",
+  "fesm5": "dist\\userprofile\\fesm5\\bit-onuraltindag.atomiss-mercury.userprofile.js",
+  "fesm2015": "dist\\userprofile\\fesm2015\\bit-onuraltindag.atomiss-mercury.userprofile.js",
+  "module": "dist\\userprofile\\fesm5\\bit-onuraltindag.atomiss-mercury.userprofile.js",
+  "typings": "dist\\userprofile\\bit-onuraltindag.atomiss-mercury.userprofile.d.ts"
+}

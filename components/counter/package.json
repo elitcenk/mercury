@@ -1,0 +1,25 @@
+{
+  "name": "@bit/onuraltindag.atomiss-mercury.counter",
+  "version": "1.0.1",
+  "homepage": "https://bit.dev/onuraltindag/atomiss-mercury/counter",
+  "main": "dist/counter/bundles/bit-onuraltindag.atomiss-mercury.counter.umd.js",
+  "dependencies": {
+    "@angular/core": "~8.2.14",
+    "@angular/common": "~8.2.14"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@0.1.9"
+    }
+  },
+  "es2015": "dist\\counter\\fesm2015\\bit-onuraltindag.atomiss-mercury.counter.js",
+  "esm5": "dist\\counter\\esm5\\bit-onuraltindag.atomiss-mercury.counter.js",
+  "esm2015": "dist\\counter\\esm2015\\bit-onuraltindag.atomiss-mercury.counter.js",
+  "fesm5": "dist\\counter\\fesm5\\bit-onuraltindag.atomiss-mercury.counter.js",
+  "fesm2015": "dist\\counter\\fesm2015\\bit-onuraltindag.atomiss-mercury.counter.js",
+  "module": "dist\\counter\\fesm5\\bit-onuraltindag.atomiss-mercury.counter.js",
+  "typings": "dist\\counter\\bit-onuraltindag.atomiss-mercury.counter.d.ts"
+}

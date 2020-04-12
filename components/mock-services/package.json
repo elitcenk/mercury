@@ -1,0 +1,26 @@
+{
+  "name": "@bit/onuraltindag.atomiss-mercury.mock-services",
+  "version": "1.0.10",
+  "homepage": "https://bit.dev/onuraltindag/atomiss-mercury/mock-services",
+  "main": "dist/mock-services/bundles/bit-onuraltindag.atomiss-mercury.mock-services.umd.js",
+  "dependencies": {
+    "rxjs": "~6.4.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "@angular/core": "~8.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@0.2.0"
+    }
+  },
+  "es2015": "dist\\mock-services\\fesm2015\\bit-onuraltindag.atomiss-mercury.mock-services.js",
+  "esm5": "dist\\mock-services\\esm5\\bit-onuraltindag.atomiss-mercury.mock-services.js",
+  "esm2015": "dist\\mock-services\\esm2015\\bit-onuraltindag.atomiss-mercury.mock-services.js",
+  "fesm5": "dist\\mock-services\\fesm5\\bit-onuraltindag.atomiss-mercury.mock-services.js",
+  "fesm2015": "dist\\mock-services\\fesm2015\\bit-onuraltindag.atomiss-mercury.mock-services.js",
+  "module": "dist\\mock-services\\fesm5\\bit-onuraltindag.atomiss-mercury.mock-services.js",
+  "typings": "dist\\mock-services\\bit-onuraltindag.atomiss-mercury.mock-services.d.ts"
+}

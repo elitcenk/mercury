@@ -1,0 +1,29 @@
+{
+  "name": "@bit/onuraltindag.atomiss-mercury.login-facebook",
+  "version": "1.0.2",
+  "homepage": "https://bit.dev/onuraltindag/atomiss-mercury/login-facebook",
+  "main": "dist/login-facebook/bundles/bit-login-facebook.umd.js",
+  "dependencies": {
+    "angular-6-social-login": "^1.1.1",
+    "@bit/onuraltindag.atomiss-mercury.mock-services": "file:../mock-services"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "@angular/common": "~8.0.0",
+    "@angular/core": "~8.0.0",
+    "@angular/forms": "~8.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/angular@0.2.0"
+    }
+  },
+  "es2015": "dist\\login-facebook\\fesm2015\\bit-login-facebook.js",
+  "esm5": "dist\\login-facebook\\esm5\\bit-login-facebook.js",
+  "esm2015": "dist\\login-facebook\\esm2015\\bit-login-facebook.js",
+  "fesm5": "dist\\login-facebook\\fesm5\\bit-login-facebook.js",
+  "fesm2015": "dist\\login-facebook\\fesm2015\\bit-login-facebook.js",
+  "module": "dist\\login-facebook\\fesm5\\bit-login-facebook.js",
+  "typings": "dist\\login-facebook\\bit-login-facebook.d.ts"
+}

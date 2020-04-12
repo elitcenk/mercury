@@ -9,6 +9,32 @@
 
 # dependencies
 /node_modules
+/components/counter/node_modules
+/components/counter/dist
+/components/home/node_modules
+/components/home/dist
+/components/login/node_modules
+/components/login/dist
+/components/login-facebook/node_modules
+/components/login-facebook/dist
+/components/login-github/node_modules
+/components/login-github/dist
+/components/login-google/node_modules
+/components/login-google/dist
+/components/login-linkedin/node_modules
+/components/login-linkedin/dist
+/components/mock-services/node_modules
+/components/mock-services/dist
+/components/register/node_modules
+/components/register/dist
+/components/routing/node_modules
+/components/routing/dist
+/components/signout/node_modules
+/components/signout/dist
+/components/userhome/node_modules
+/components/userhome/dist
+/components/userprofile/node_modules
+/components/userprofile/dist
 
 # profiling files
 chrome-profiler-events*.json
